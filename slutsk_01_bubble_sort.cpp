@@ -1,4 +1,4 @@
-// Сортировка ПУЗЫРЕК
+// Bubble_sort
 #include <iostream>
 using namespace std;
 int arr[100];
