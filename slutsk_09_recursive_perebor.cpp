@@ -1,3 +1,4 @@
+//Быстрый вариант с глобальными переменными
 #include <iostream>
 using namespace std;
 int arr[100];
