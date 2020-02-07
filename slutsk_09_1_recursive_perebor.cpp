@@ -1,3 +1,5 @@
+// рекурсивный перебор n чисел 
+// от 1 до m
 #include <iostream>
 using namespace std;
 
