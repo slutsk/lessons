@@ -1,7 +1,7 @@
 // перестановки чисел от 1 до m
 #include <iostream>
 using namespace std;
-int n, m;
+int n;
 int arr[100];
 bool tr_or_f[100] = {false};
 
@@ -16,7 +16,7 @@ void rec(int index){
       print_arr();
       return;
    }
-   for(int i = 1; i <= m; i++){
+   for(int i = 1; i <= n; i++){
       if(tr_or_f[i]) continue;
       arr[index] = i;
       tr_or_f[i] = true;
@@ -27,7 +27,7 @@ void rec(int index){
 
 int main(){
     cin >> n;
-    cin >> m;
     rec(0);
     return 0;
 }
+
