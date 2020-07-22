@@ -3,7 +3,7 @@
 using namespace std;
 void merge_sort(int A[], int a, int b){
 
-   if (a>=b) return;
+   if (a==b) return;
    int m=(a+b)/2;
    merge_sort(A, a, m);
    merge_sort(A, m+1, b);
